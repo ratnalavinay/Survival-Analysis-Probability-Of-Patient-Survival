@@ -37,13 +37,13 @@ Source: Kalbfleisch and Prentice (pp. 223-224)
 
 **Dependent Variables:** Dependent variable for the survival analysis problems is the waiting time until the occurrence of an event. Observations are censored, in the sense that for some cases the event has not yet occurred at the time of analysis. These are predictors whose effect on the waiting time we wish to assess. Which is the survival_days (Time) and status (Event).
 
-![](Images/image1.JPG)
+
 
 Estimated probability could vary within a range of 3-18% (95% CI) for the patients that received the standard treatment and a range of 5-23% (95% CI) for the patients that received the test treatment.
 
 Estimated probability could vary within a range of 13-34% (95% CI) for the patients that received the standard treatment and a range of 15-36% (95% CI) for the patients that received the test treatment.
 
-![](Media/Image2.jpg)
+![](Images/image1.jpg)
 
 From our KM analysis, the survival probability of the test treatment group is higher than the standard group for both time periods. But from the plot, both treatments show the same survival probability until the first 15-20 days. Then the standard treatment group has higher survival probability until about 160-175 days. Then the test treatment group has higher survival probability. This means it takes about 175 days to see the effects of the new drug.
 
@@ -61,7 +61,8 @@ response variable (y), we can say there is a positive effect.
 **Negative Effect:** If there is an inverse proportionality (+X then -y / -X then +y) between the predictor variable (X) and the
 response variable (y), we can say there is a negative effect.
 
-![](Media/Image4.JPG)
+
+
 
 **Code Snippet for Stargazer**
 
