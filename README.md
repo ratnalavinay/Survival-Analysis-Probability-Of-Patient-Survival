@@ -49,7 +49,7 @@ From our KM analysis, the survival probability of the test treatment group is hi
 
 **Question-2**
 
-![](Media/Image3.JPG)
+![](Images/image2.jpg)
 
 ### Ask-2
 
@@ -71,7 +71,7 @@ response variable (y), we can say there is a negative effect.
 stargazer(cox1, exp1, wbl1, llg1, type='text', single.row = TRUE)
 ```
 
-![](Media/Image5.JPG)
+![](Images/image3.jpg)
 
 **_[Selected Model = Cox PH] – [Reason for choosing Semi-Parametric Model Over Parametric Models is that these models assume that there is a constant hazard function which in most cases is unrealistic. So, we decided to go with the Cox PH model as it does not make any assumptions in the hazard (Risk of event occurring) function.]_**
 
@@ -79,13 +79,13 @@ stargazer(cox1, exp1, wbl1, llg1, type='text', single.row = TRUE)
 
 Cox proportional hazard model provides an estimate of the hazard ratio, which is an estimate of the relative risk in the treated group (Standard Treatment) vs the control group (Test Treatment). In other words, we can estimate the hazard rate which is the probability that if the event (status – Patient dead or not-dead) has not already occurred, it will occur in the next time interval (survival_days).
 
-![](Media/Image6.JPG)
+![](Images/image4.jpg)
 
 **2. Parametric Models**
 
 Exponential, Weibull, Log-logistic models etc. provide an estimate of the survival rate. As hazard rate and survival rate have opposite slopes, this is reflected in the sign of the estimates in most cases. We get the following insights:
 
-![](Media/Image7.JPG)
+![](Images/image5.jpg)
 
 ## Conclusion
 
