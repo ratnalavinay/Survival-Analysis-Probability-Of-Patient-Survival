@@ -37,7 +37,7 @@ Source: Kalbfleisch and Prentice (pp. 223-224)
 
 **Dependent Variables:** Dependent variable for the survival analysis problems is the waiting time until the occurrence of an event. Observations are censored, in the sense that for some cases the event has not yet occurred at the time of analysis. These are predictors whose effect on the waiting time we wish to assess. Which is the survival_days (Time) and status (Event).
 
-![](Media/Image1.JPG)
+![](Images/image1.JPG)
 
 Estimated probability could vary within a range of 3-18% (95% CI) for the patients that received the standard treatment and a range of 5-23% (95% CI) for the patients that received the test treatment.
 
